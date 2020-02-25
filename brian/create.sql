@@ -1,9 +1,9 @@
-/*this is my create file*/
-source (create table locations.sql);
+drop database briandatabase;
+create database briandatabase;
+use briandatabase;
 
-/*create table 'bar'=(table name)(id int,name varchar(20));   To create a table*/
-CREATE TABLE table_section1 (
-    column1 datatype,
-    column2 datatype,
-    column3 datatype,
+create table `people`(
+    id int auto_increment,
+    primary key(id),
+    name varchar(120)
 );
