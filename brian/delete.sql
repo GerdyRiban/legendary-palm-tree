@@ -1,3 +1,3 @@
 /*this is my delete file*/
-use briandatabase;
-DELETE FROM table_name WHERE condition;
+
+delete from 'people' where id = __;
